@@ -1,0 +1,25 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_language"
+        android:src="@android:drawable/ic_menu_camera"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_language"
+        android:layout_below="@+id/img_language"
+        android:text="Language"
+        android:layout_marginLeft="45dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+</RelativeLayout>
