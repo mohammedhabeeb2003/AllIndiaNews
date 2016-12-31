@@ -10,19 +10,19 @@
         android:layout_width="150dp"
         android:layout_height="110dp"
         android:id="@+id/img_language"
-        android:padding="5dp"
-        android:background="@drawable/shape_image"
+
+
         android:src="@android:drawable/ic_menu_camera"/>
 
 
     <TextView
         android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+
         android:id="@+id/tv_language"
         android:layout_below="@+id/img_language"
         android:text="Language"
-        android:textAlignment="center"
-        android:background="@drawable/shape_text"
+        android:gravity="center"
         android:textStyle="bold"
         android:textSize="16dp"
         />
